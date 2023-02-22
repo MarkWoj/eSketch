@@ -1,0 +1,28 @@
+#gridArea {
+  display: grid;
+  grid-template-rows: repeat(16, 30px);
+  grid-template-columns: repeat(16, 30px);
+  column-gap: 0px;
+  row-gap: 0px;
+/*  border: 10px solid black; */
+}
+
+/*#gridArea {
+  --col: 30px;
+  --row: 30px;
+  --gap: 1px;
+
+  display: grid;
+  grid-template-columns: repeat(16, var(--col));
+  grid-template-rows: repeat(16, var(--row));
+  grid-gap: var(--gap);
+}
+*/
+.item {
+  background-color: ;
+  border: 1px solid black;
+}
+.newItem {
+  background-color: red;
+  border: 1px solid black;
+}
